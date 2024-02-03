@@ -1,0 +1,12 @@
+footer{
+    border: 1px fuchsia solid;
+    display: flex;
+    margin-top: auto;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    color: #AAAAAA;
+}
