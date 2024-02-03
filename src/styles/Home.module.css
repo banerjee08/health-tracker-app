@@ -1,13 +1,13 @@
 .homeContainer{
     padding: 20px 35px;
-    border: 5px dotted green;
+    /* border: 5px dotted green; */
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46));
     height: 100%;
     color: white;
 }
 
 .workoutImg{
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 180px;
     width: auto;
     

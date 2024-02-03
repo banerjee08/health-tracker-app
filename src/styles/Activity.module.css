@@ -1,5 +1,5 @@
 .activityContainer{
-    border: 2px blue dotted;
+    /* border: 2px blue dotted; */
     /* height: 100%; */
     /* background-color: pink; */
     padding: 45px 25px 15px;
@@ -20,7 +20,7 @@ form input{
     padding: 0 10px;
 }
 
-button{
+.getStartedBtn{
     border: none;
     background-color: #f9820a;
     color: white;
@@ -33,13 +33,13 @@ button{
     transition: transform .1s ease-in-out;
 }
 
-button:hover{
+.getStartedBtn:hover{
     transform: translate(1px, 1px);
-    color: #161616
+    color: #161616;
 }
 
 .listGroup{
-    border: 1px solid #f9820a;
+    /* border: 1px solid #f9820a; */
     /* list-style-type: none; */
     padding-left: 0px;
     margin: 0 25px;
@@ -53,6 +53,7 @@ button:hover{
     padding: 18px 0;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .listGroupItem:hover{

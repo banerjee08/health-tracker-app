@@ -4,6 +4,17 @@ import styles from "../../styles/Weekly.module.css"
 
 export default function Weekly(){
     return(
-        <h1>Weekly Activities</h1>
+        <div className={styles.weeklyContainer}>
+            <h2>Weekly Activities</h2>
+            <ul className={styles.weeklyActivityList}>
+                <li className={styles.days}>Day 1</li>
+                <li className={styles.days}>Day 2</li>
+                <li className={styles.days}>Day 3</li>
+                <li className={styles.days}>Day 4</li>
+                <li className={styles.days}>Day 5</li>
+                <li className={styles.days}>Day 6</li>
+                <li className={styles.days}>Day 7</li>   
+            </ul>
+        </div>
     )
 }

@@ -20,7 +20,7 @@ export default function Activity(){
                     value={activity}
                     onChange={(e) => setActivity(e.target.value)}
                 />
-                <button type="submit">Get Started</button>
+                <button type="submit" className={styles.getStartedBtn}>Get Started</button>
             </form>
             <div>
                 <h2>Your Activities:</h2>
