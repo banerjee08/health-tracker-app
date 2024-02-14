@@ -28,7 +28,8 @@
 .noBtn,
 .blehBtn{
     border: none;
-    background-color: #f9820a;
+    /* background-color: #f9820a; */
+    background-color: #f4b16e;
     color: white;
     font-size: 13px;
     padding: 10px 25px;
@@ -49,9 +50,11 @@
 
 .noBtn{
     margin: 0 15px;
-    background-color: #eb6161;
+    /* background-color: #eb6161; */
+    background-color: #ec9393;
 }
 
 .yesBtn{
-    background-color: #4cd17f;
+    /* background-color: #4cd17f; */
+    background-color: #8acaa3;
 }

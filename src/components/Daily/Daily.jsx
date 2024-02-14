@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "../../styles/Daily.module.css"
 
+
 export default function Daily(){
     return (
         <div className={styles.dailyContainer}>

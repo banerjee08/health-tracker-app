@@ -1,8 +1,10 @@
 import React from "react"
+import { useState } from "react"
 import styles from "../../styles/Weekly.module.css"
 
 
 export default function Weekly(){
+    const [days, setDays] = useState([])
     return(
         <div className={styles.weeklyContainer}>
             <h2>Weekly Activities</h2>

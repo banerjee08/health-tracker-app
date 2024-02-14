@@ -17,6 +17,9 @@ const dailyActivitySlice = createSlice({
         }
     }
 });
-
+ 
 // export reducer
-export const dailyActivityReducer = dailyActivitySlice.reducer
+export const dailyActivityReducer = dailyActivitySlice.reducer;
+
+// export actions
+export const dailyActions = dailyActivitySlice.actions

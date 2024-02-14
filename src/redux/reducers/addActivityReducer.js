@@ -15,7 +15,8 @@ const addActivitySlice = createSlice({
         // this is an add action
         add: (state, action) => {
             state.addActivity.push({
-                text:action.payload
+                text:action.payload,
+                createdOn: new Date()
             })
         },
 
@@ -27,4 +28,7 @@ const addActivitySlice = createSlice({
 })
 
 // export reducer
-export  const addActivityReducer = addActivitySlice.reducer
+export  const addActivityReducer = addActivitySlice.reducer;
+
+// export actions
+export const addActions = addActivitySlice.actions;
