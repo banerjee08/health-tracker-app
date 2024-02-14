@@ -7,7 +7,6 @@ import { useDispatch, useSelector } from 'react-redux'
 
 export default function Activity(){
     const [activity, setActivity] = useState()
-    // const notes=useSelector((state)=> state.noteReducer.notes);
     const activities=useSelector((state)=> state.addActivityReducer.addActivity);
     const dispatch = useDispatch();
 
@@ -17,6 +16,8 @@ export default function Activity(){
         dispatch(addActions.add(activity))
         setActivity("")
     }
+    // activities display the list of activities
+    // console.log("activities", activities)
 
         
     return(
