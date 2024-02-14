@@ -35,7 +35,8 @@ export default function Activity(){
                         {activities.map((addActivity, index) =>(
                             <div className={styles.listGroupItem}>
                             <p>{addActivity.text}</p>
-                            <button className={styles.closeBtn}>X</button>
+                            <button className={styles.closeBtn}
+                            onClick={()=>dispatch(addActions.delete(index))}>X</button>
                         </div>
                         ))}
                     </div>
