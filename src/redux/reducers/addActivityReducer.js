@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
     addActivity:[
-        {text: "Running"},
-        {text: "swimming"}
+        // {text: "Running"},
+        // {text: "swimming"}
     ]
 }
 

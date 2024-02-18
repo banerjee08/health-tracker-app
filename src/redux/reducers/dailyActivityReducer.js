@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     dailyActivity:[
-        {text: "Running", createdOn: new Date(), completed: "No"},
-        {text: "swimming", createdOn: new Date(), completed: "Yes"}
+        {text: "Running", createdOn: Date.now(), completed: "No"},
+        {text: "swimming", createdOn: Date.now(), completed: "Yes"}
     ]
 }
 
