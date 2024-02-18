@@ -16,7 +16,7 @@ const addActivitySlice = createSlice({
         add: (state, action) => {
             state.addActivity.push({
                 text:action.payload,
-                createdOn: new Date()
+                createdOn: Date.now()
             })
         },
 

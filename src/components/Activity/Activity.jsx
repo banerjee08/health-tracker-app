@@ -27,6 +27,7 @@ export default function Activity(){
                     type="text"
                     value={activity}
                     onChange={(e) => setActivity(e.target.value)}
+                    placeholder= 'Add an activity...'
                 />
                 <button type="submit" className={styles.getStartedBtn}>Get Started</button>
             </form>
@@ -34,7 +35,7 @@ export default function Activity(){
                 <h2>Your Activities:</h2>
                     <div className={styles.listGroup}>
                         {activities.map((addActivity, index) =>(
-                            <div className={styles.listGroupItem}>
+                            <div key={index} className={styles.listGroupItem}>
                             <p>{addActivity.text}</p>
                             <button className={styles.closeBtn}
                             onClick={()=>dispatch(addActions.delete(index))}>X</button>

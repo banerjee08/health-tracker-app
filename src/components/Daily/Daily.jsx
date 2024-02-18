@@ -21,7 +21,7 @@ export default function Daily(){
                         //     <button className={styles.closeBtn}
                         //     onClick={()=>dispatch(addActions.delete(index))}>X</button>
                         // </div>
-                        <div className={styles.dailyActivity}>
+                        <div key={index} className={styles.dailyActivity}>
                             <p className={styles.activityName}>{addActivity.text}</p>
                             <button className={styles.yesBtn}>Yes</button>
                             <button className={styles.noBtn}>No</button>
